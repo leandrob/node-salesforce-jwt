@@ -1,0 +1,22 @@
+{
+  "name": "salesforce-jwt",
+  "version": "0.1.0",
+  "description": "SalesForce Auth 2.0 JWT Bearer Token Flow Implementation",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "jsonwebtoken": "0.2.0",
+    "request":" 2.34.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leandrob/node-salesforce-jwt.git"
+  },
+  "keywords": [
+    "Salesforce",
+    "JWT",
+    "OAuth"
+  ],
+  "author": "Leandro Boffi (lboffi@gmail.com)",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
