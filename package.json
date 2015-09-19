@@ -4,8 +4,8 @@
   "description": "SalesForce Auth 2.0 JWT Bearer Token Flow Implementation",
   "main": "./lib/index.js",
   "dependencies": {
-    "jsonwebtoken": "0.2.0",
-    "request":" 2.34.0"
+    "jsonwebtoken": "5.0.5",
+    "request":" 2.62.0"
   },
   "repository": {
     "type": "git",
