@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/RuuPiE/node-salesforce-jwt.git"
+    "url": "https://github.com/leandrob/node-salesforce-jwt.git"
   },
   "keywords": [
     "Salesforce",
     "JWT",
     "OAuth"
   ],
-  "author": "Ruben Alberda (ruben@synpro.nl)",
+  "author": "Leandro Boffi (lboffi@gmail.com) & Ruben Alberda (ruben@synpro.nl)",
   "license": "MIT",
   "readmeFilename": "README.md"
 }
