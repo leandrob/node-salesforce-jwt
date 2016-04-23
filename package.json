@@ -1,7 +1,7 @@
 {
   "name": "salesforce-jwt",
-  "version": "0.1.0",
-  "description": "SalesForce Auth 2.0 JWT Bearer Token Flow Implementation",
+  "version": "0.1.1",
+  "description": "SalesForce Auth 2.0 JWT Bearer Token Flow Implementation (with sandbox support)",
   "main": "./lib/index.js",
   "dependencies": {
     "jsonwebtoken": "5.0.5",
@@ -16,7 +16,7 @@
     "JWT",
     "OAuth"
   ],
-  "author": "Leandro Boffi (lboffi@gmail.com)",
+  "author": "Leandro Boffi (lboffi@gmail.com) & Ruben Alberda (ruben@synpro.nl)",
   "license": "MIT",
   "readmeFilename": "README.md"
 }
