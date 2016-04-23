@@ -19,12 +19,14 @@ var jwtflow = require('salesforce-jwt');
 var clientId = '3MVG9A2kN3Bn17hvVNDOE5FX8c9hS...30dgSSfyGi1FS09Zg'; // This is the connected app consumerKey
 var privateKey = require('fs').readFileSync('./privateKey.key', 'utf8');
 
-jwtflow.getToken(clientId, privateKey, 'user@toImpersonate.com', function(err, accessToken) {
+jwtflow.getToken(clientId, privateKey, 'user@toImpersonate.com[.sandbox]', function(err, accessToken) {
 	// err
 	// accessToken will contain the token to use on SalesForce API.
 });
 
 ```
+
+When .sandbox userName is given, the test.salesforce.com endpoint will be used
 
 This is an example on how to use it with [jsforce](https://github.com/jsforce/jsforce).
 
